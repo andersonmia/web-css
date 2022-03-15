@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+    font-family: poppins;
+    font-weight: bold;
+    margin: 0px;
+    outline: none;
+}
+.navbar{
+    background-color:#F0F8FF ;    
+    display: inline-flexbox;
+    align-items: baseline;
+    width: 100vw;
+    padding: 0%; 
+    margin: 0px;   
+}
+a{
+    color:#4700FC ;
+    font-family: poppins;
+    text-decoration: none;
+}
+a:hover{
+    color: #F8007A;
+}
+a:active{
+    color: #FC7300;
+    text-decoration: underline;
+}
+.padding{
+    padding: 30px;
+}
+.pages{
+    float: right;
+    margin-top: 2%;
+}
+input[type="text"]{
+    margin: 2%;
+    display: block;
+    border-color: #4700FC;
+    border-style: none none solid none;
+}
+textarea{
+    margin: 2%;
+    display: block;
+    border-color: #4700FC;
+    border-style: none none solid none;
+}
+button{
+    padding: 1%;
+    margin: 5% auto;
+    width: 20%;
+    border-radius: 12px;
+    border: none;
+    background-image: linear-gradient(45deg, rgba(0, 0, 255, 0.63) 0%, rgba(137, 43, 226, 0.767) 50%);
+}
+::placeholder{
+    color: blueviolet;
+}
+.border{
+    border-color: #4700FC blueviolet;
+    border-style: solid;
+    margin:2% auto;
+    width: 50%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+}
+h1,h3{
+    text-align: center;
+}
+h1{
+    color: #FC7300;
+}
+h3{
+    color: #F8007A;
+}
+
+.footer{
+    background-color: black;
+    height: 50vh;
+    padding: 2%;
+}
+.link{
+    margin: 0px;
+    padding: 2% 0;
+    color: rgb(119, 187, 247);
+    display: flex;
+    flex-direction: column;
+
+}
+.link:hover{
+    color: #FC7300;
+}
+.footcol{
+    width: 100%;   
+    padding: 0px    ; 
+}
+.footrow{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+}
+h4{
+    color: gray;
+    margin: auto;
+}
+.links{
+    width: auto;
+}
+.i{
+    display: inline;
+}
+#about{
+    color: #FC7300;
+    font-weight: bolder;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+#flogo{
+    border-radius: 50%;
+    border: rgb(119, 187, 247) solid;
+    margin-left: 15%;
+}
+.i{
+    padding-left: 2%;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+    font-weight: bold;
+    font-family: poppins;
+}
+body{
+    overflow-x: hidden;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.column{
+    border: solid blue;
+}
+
+#left{
+    float:right ;    
+}
+.navbar{
+    background-color:#F0F8FF ;    
+    display: inline-flexbox;
+    align-items: baseline;
+    width: 99.2vw; 
+    padding: 0%;
+    margin: 0px;   
+}
+a{
+    color:#4700FC ;
+    font-family: poppins;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #F8007A;
+}
+a:active{
+    color: #FC7300;
+    text-decoration: underline;
+}
+.padding{
+    padding: 30px;
+}
+.pages{
+    float: right;
+    margin-top: 2%;
+}
+.gp{
+    width: 100%;
+    margin-top: 3%;
+}
+.button{
+     width: 70%;
+    margin-left: 45%;
+}
+button{
+    width: 25%;
+    background-color: black;
+    border-radius: 12px;
+}
+h1{
+    color: #4700FC;
+}
+h3{
+    color: blueviolet;
+}
+h1,h3{
+    text-align: center;
+}
+p{
+    color: blueviolet;
+    padding-left: 10%;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    background-color: black;
+    height: 50vh;
+    padding: 2%;
+    margin: 0px;
+}
+.link{
+    margin: 0px;
+    padding: 2% 0;
+    color: rgb(119, 187, 247);
+    display: flex;
+    flex-direction: column;
+
+}
+.link:hover{
+    color: #FC7300;
+}
+.footcol{
+    width: 100%;   
+    padding: 0px    ; 
+}
+.footrow{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+}
+h4{
+    color: gray;
+    margin: auto;
+}
+.links{
+    width: auto;
+}
+.i{
+    display: inline;
+}
+#about{
+    color: #FC7300;
+    font-weight: bolder;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+#flogo{
+    border-radius: 50%;
+    border: rgb(119, 187, 247) solid;
+    margin-left: 15%;
+}
+.i{
+    padding-left: 2%;
+}
